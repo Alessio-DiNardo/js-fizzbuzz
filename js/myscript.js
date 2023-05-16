@@ -4,10 +4,8 @@
 
 
 for (let i = 0; i < 100; i++){
-    if(i % 3 === 0 && i % 5 === 0) console.log("FizzBuzz");
-    else if(i % 3 === 0) console.log("Fizz");
-    else if(i % 5 === 0) console.log("Buzz");
-    const FizzBuzz = "FizzBuzz"
-    const Fizz = "Fizz"
-    const Buzz = "Buzz"
+    if(i % 3 === 0 && i % 5 === 0) console.log("fizzbuzz");
+    else if(i % 3 === 0) console.log("fizz");
+    else if(i % 5 === 0) console.log("buzz");
+    console.log(i)
 }
